@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project DuaBelasTiga</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <section class="sec-01">
+        <div class="container">
+            <h2 class="main-title">English Class Bebandem</h2>
+            <div class="content">
+                <div class="image">
+                    <img src="png1.png" alt="">
+                </div>
+                <div class="text-box">
+                    <h3>English Class Bebandem</h3>
+                    <p>English Class Bebandem (ECB) adalah sebuah organisasi yang didirikan oleh Mr. Ketut, terletak di sebelah JFC Bebandem. Anggota ECB terdiri dari siswa dan siswi dari berbagai sekolah dan kampus di Karangasem. Di sini, kita belajar bahasa Inggris dan keterampilan pariwisata. Kami memanfaatkan waktu sebaik mungkin dengan mengadakan pembelajaran setiap hari Sabtu, Minggu, atau hari libur.</p>
+                </div>
+            </div>
+            <div class="media-icons">
+                <a href="https://wa.me/6287735648765?text=Halo+Mr.Ketut" class="icon"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/englishclass_bandem?igsh=MTQxMnI1a3o2cjcxaw==" class="icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="sec-02">
+        <div class="container">
+            <h3 class="section-title">Tentang</h3>
+            <div class="content">
+                <div class="image">
+                    <img src="middle.png" alt="">
+                </div>
+                <div class="info">
+                    <h4 class="info-title">Detail</h4>
+                    <p>Di ECB, terdapat beberapa tingkatan belajar yang dimulai dari tingkat basic, lalu naik ke tingkat selanjutnya belajar bersama Mr. Ketut. Di sana ada yang namanya perintis asisten dosen (asdos), dan yang terakhir adalah asdos. Metode pembelajaran yang digunakan bervariasi sesuai dengan tingkatannya. Untuk tingkat atas, fokusnya adalah pada percakapan (conversation) dan pencatatan kosa kata baru. Mereka juga belajar tentang destinasi wisata dan memberikan pidato (speech). Sedangkan untuk tingkat basic, pembelajaran dimulai dari nol, seperti belajar alfabet, angka, kosakata sehari-hari, bulanan, dan lainnya.
+
+                        Asdos bertugas mengajar materi basic atau materi pariwisata lainnya. Untuk perintis asdos, tugasnya sama dengan asdos, namun setiap kali mengajar masih diawasi oleh asdos. Materi pariwisata yang telah dipelajari di ECB mencakup:
+                        - Sequence of service yes/no,
+                        - Sequence of service upgrade,
+                        - Front office yes/no,
+                        - Front office upgrade,
+                        - Room service,
+                        - Telephone operator,
+                        - Reservation.
+                        
+                        Dengan metode pembelajaran yang terstruktur ini, ECB berusaha memastikan setiap anggotanya mendapatkan pengetahuan dan keterampilan yang komprehensif.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-03">
+        <div class="container">
+            <h3 class="section-title">Media Sosial</h3>
+            <div class="content">
+                <div class="media-info">
+                    <li><i class="fab fa-whatsapp"></i>+62 877 3564 8765 (Mr Ketut)</li>
+                    <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/englishclass_bandem?igsh=MTQxMnI1a3o2cjcxaw==">@englishclass_bandem</a></li>
+                    <li><i class="fab fa-facebook"></i>Coming Soon</li>
+                    <li><i class="fab fa-youtube"></i>Coming Soon</li>
+                </div>
+                <div class="image">
+                    <img src="last.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        //common reveal options to create reveal animation
+        ScrollReveal({
+             //reset: true,
+             distance: '60px',
+             duration: 2500,
+             delay: 400
+             });
+            //target elements, and specify to create reveal animations
+             ScrollReveal().reveal('.main-title, .section-title', { delay: 500, origin: 'left' });
+             ScrollReveal().reveal('.sec-01 .image, .info', { delay: 600, origin: 'bottom' });
+             ScrollReveal().reveal('.text-box', { delay: 700, origin: 'right' });
+             ScrollReveal().reveal('.media-icons i', { delay: 500, origin: 'bottom', interval: 200 });
+             ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', { delay: 500, origin: 'top' });
+             ScrollReveal().reveal('.media-info li', { delay: 500, origin: 'left', interval: 200 });
+
+
+    </script>
+</body>
+</html>
